@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bharat Raj Dhaka — Portfolio</title>
+  <meta name="description" content="Portfolio of Bharat Raj Dhaka — Embedded & VLSI Engineer, STEM Educator, Aeromodeller, Innovation Ambassador." />
+  <meta name="theme-color" content="#ffffff" />
+  <meta property="og:title" content="Bharat Raj Dhaka — Portfolio" />
+  <meta property="og:description" content="Embedded & VLSI Engineer · STEM Educator · Aeromodeller · Innovation Ambassador" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://bharatrajdhaka.github.io/" />
+  <meta property="og:image" content="assets/og-image.png" />
+  <link rel="icon" href="assets/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Bharat Raj Dhaka",
+    "jobTitle":"Embedded & VLSI Engineer · STEM Educator",
+    "url":"https://bharatrajdhaka.github.io/",
+    "sameAs":[
+      "https://github.com/BharatRajDhaka",
+      "https://www.linkedin.com/in/bharat-raj-dhaka-83bb36324",
+      "mailto:bharatrajdhaka5@gmail.com"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ratangarh",
+      "addressRegion": "Rajasthan",
+      "addressCountry": "IN"
+    }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" role="banner">
+    <div class="nav-inner">
+      <a class="brand" href="#top" aria-label="Home">BRD</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#certs">Certifications</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="menuBtn" class="menu-btn" aria-expanded="false" aria-controls="mobileNav" aria-label="Open menu">Menu</button>
+    </div>
+    <nav id="mobileNav" class="mobile-nav" aria-label="Mobile">
+      <a href="#work">Work</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#certs">Certifications</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section id="top" class="hero">
+      <div class="hero-inner">
+        <h1 class="hero-title">Bharat Raj Dhaka</h1>
+        <p class="hero-tagline">
+          Embedded & VLSI Engineer · STEM Educator · Aeromodeller · Innovation Ambassador
+        </p>
+        <div class="hero-meta">
+          <span>From <strong>Ratangarh, Churu, Rajasthan</strong></span>
+          <span class="dot" aria-hidden="true">•</span>
+          <span>Currently Student at <strong>Engineering College Bikaner, BIKANER</strong></span>
+          <span class="dot" aria-hidden="true">•</span>
+          <span>Open to internships & freelance</span>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <img class="hero-photo" src="assets/images/portrait.jpg" alt="Portrait of Bharat Raj Dhaka" />
+        <div class="orb" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <!-- Projects with tabs (Ongoing / Completed) -->
+    <section id="work" class="section work">
+      <div class="section-head">
+        <h2>Projects</h2>
+        <p class="section-sub">A few projects and case studies.</p>
+      </div>
+
+      <div class="projects-tabs" role="tablist" aria-label="Project categories">
+        <button id="tab-ongoing" class="tab-button" role="tab" aria-selected="false" aria-controls="panel-ongoing">
+          Ongoing Projects
+        </button>
+        <button id="tab-completed" class="tab-button active" role="tab" aria-selected="true" aria-controls="panel-completed">
+          Completed Projects
+        </button>
+      </div>
+
+      <div id="panel-ongoing" class="projects-panel" role="tabpanel" aria-labelledby="tab-ongoing" hidden>
+        <article class="case text-only reveal">
+          <div class="case-body">
+            <h3 class="case-title">EcoNav 360</h3>
+            <p class="case-desc">Developing MCU firmware and all sensor/component interfaces—drivers, calibration hooks, debouncing, and error handling—for a stable data pipeline and predictable control.</p>
+            <p class="case-meta">Role: Embedded • Tech: MCU, GPIO/ADC, I2C/SPI/UART, power states.</p>
+          </div>
+        </article>
+
+        <article class="case text-only reveal">
+          <div class="case-body">
+            <h3 class="case-title">Sound Control for Birds</h3>
+            <p class="case-desc">A production‑ready, single html web app to control an ESP32 over MQTT via WebSockets (ws/wss). It publishes exact JSON commands (POWER, WINDOW, START/STOP, PLAY1/PLAY2, DELAY, VOLUME, STATUS) and streams live status/telemetry with a dark, responsive UI. Includes Mosquitto/EMQX presets, auth, MQTT 3.1.1/5, a timestamped console with mute/compact/auto‑scroll, and localStorage persistence—no build tools required.</p>
+            <p class="case-meta">Role: Full‑stack Developer • Tech: HTML, CSS, mqtt.js (CDN), MQTT over WebSockets (Mosquitto/EMQX), QoS 0/1, WS/WSS with reconnect and TLS guidance.</p>
+          </div>
+        </article>  
+
+        <article class="case text-only reveal">
+          <div class="case-body">
+            <h3 class="case-title">EQUINES</h3>
+            <p class="case-desc">Phase I delivered the Flutter + Firebase dashboard and ESP32 sensor nodes for feed, water, activity, and ID via BLE beacons. Phase II (in progress) adds vital‑signs: Stage 1 Heart Rate, Stage 2 Body Temperature, Stage 3 Respiration Rate, and Stage 4 streaming/alerts for these metrics.</p>
+            <p class="case-meta">Role: Software & Hardware (R&D) • Tech: Flutter (Dart), Firebase, ESP32, BLE, sensor interfacing.</p>
+          </div>
+        </article>
+      </div>
+
+
+      <!-- <div id="panel-completed" class="projects-panel" role="tabpanel" aria-labelledby="tab-completed">
+        <article class="case text-only reveal">
+          <div class="case-body">
+            <h3 class="case-title">SaaS Dashboard (Concept)</h3>
+            <p class="case-desc">Modular analytics dashboard exploring clean layout, type scale, and responsive components with basic theming.</p>
+            <p class="case-meta">Role: Frontend · Tech: HTML, CSS, JavaScript</p>
+          </div>
+        </article>
+
+        <article class="case text-only reveal">
+          <div class="case-body">
+            <h3 class="case-title">Brand Site (Landing)</h3>
+            <p class="case-desc">Content‑first landing focused on readability, accessibility, and subtle motion for feedback.</p>
+            <p class="case-meta">Role: Design & Build · Tech: HTML, CSS</p>
+          </div>
+        </article>
+
+        <article class="case text-only reveal">
+          <div class="case-body">
+            <h3 class="case-title">Mobile App UI (Prototype)</h3>
+            <p class="case-desc">Prototype for onboarding and core flows, emphasizing minimal UI, clear hierarchy, and quick task completion.</p>
+            <p class="case-meta">Role: UX · Tech: Figma</p>
+          </div>
+        </article>
+      </div>
+    </section> -->
+
+    <section id="skills" class="section skills">
+      <div class="section-head">
+        <h2>Skills</h2>
+      </div>
+      <ul class="chips">
+        <li>Embedded Systems</li><li>VLSI Design</li><li>Digital Logic</li><li>Verilog / VHDL</li>
+        <li>FPGA</li><li>Microcontrollers (AVR/ARM)</li><li>Arduino · IoT</li><li>Raspberry Pi</li>
+        <li>PCB Design (KiCad, EasyEDA, Altium Designer)</li><li>PCB Fabrication (CNC)</li><li>C/C++</li>
+        <li>Sensors & Instrumentation</li><li>Control Systems</li><li>Circuit Simulation (LTspice)</li>
+        <li>Python</li><li>MATLAB/Simulink</li><li>Frontend: Flutter(DART), HTML, CSS, JavaScript</li>
+        <li>Git & GitHub</li><li>Aeromodelling</li><li>STEM Education</li><li>PCB Assembly · PCB Debugging</li>
+      </ul>
+    </section>
+
+    <section id="experience" class="section experience">
+      <div class="section-head">
+        <h2>Experience</h2>
+      </div>
+      <div class="timeline">
+        <div class="t-item">
+          <div class="t-head">
+            <h3>STEM Educator — Learning by Doing Education</h3>
+            <span class="time">Aug 2024 — Present · Hybrid</span>
+          </div>
+          <ul>
+            <li>Delivered hands‑on STEM and Aeromodelling sessions using STEM toys and DIY kits to explain science through simple, testable experiments.</li>
+            <li>Demonstrated forces and motion, electricity and magnetism; encouraged observation, hypothesis, measurement.</li>
+            <li>Covered flight basics: lift, drag, thrust, weight, stability, and control surfaces; built/flew paper/balsa gliders and rubber‑powered models.</li>
+            <li>Coached safe tool use, CG balancing, trimming, iterative testing; mentored showcases and maker events.</li>
+          </ul>
+        </div>
+
+        <div class="t-item">
+          <div class="t-head">
+            <h3>STEM & Aeromodelling Intern — Center for Creative Learning, IIT Gandhinagar (CCL IITGN)</h3>
+            <span class="time">Sep 2024 — Oct 2024 · Bhopal, Madhya Pradesh · On‑site</span>
+          </div>
+          <ul>
+            <li>Built and tested aeromodelling projects; introduced fundamentals of flight and making.</li>
+            <li>Supported STEM outreach sessions and activity facilitation.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section education">
+      <div class="section-head">
+        <h2>Education</h2>
+      </div>
+      <div class="timeline">
+        <div class="t-item">
+          <div class="t-head">
+            <h3>B.Tech — Electronics Instrumentation & Control Engineering — Govt. Engineering College Bikaner</h3>
+            <span class="time">2024 — 2028</span>
+          </div>
+          <ul>
+            <li>Focus: Instrumentation, control systems, embedded systems, and digital design.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="certs" class="section certs">
+      <div class="section-head">
+        <h2>Certifications & Programs</h2>  
+      </div>
+      <ul class="badges certs-list">
+        <li><a class="cert-link" href="assets/certs/gecb-vlsi.jpg" data-caption="Design and Development of ICs — Government Engineering College Bikaner (VLSI)">Design and Development of ICs — GECB (VLSI)</a></li>
+        <li><a class="cert-link" href="assets/certs/nptel-verilog.jpg" data-caption="Digital Design with Verilog — NPTEL">Digital Design with Verilog — NPTEL</a></li>
+        <li><a class="cert-link" href="assets/certs/nvidia-fundamentals-of-deep-learning.jpg" data-caption="Fundamentals of Deep Learning — NVIDIA">Fundamentals of Deep Learning — NVIDIA</a></li>
+        <li><a class="cert-link" href="assets/certs/iic-innovation-ambassador-foundation.jpg" data-caption="Innovation Ambassador (Foundation) — MoE’s Innovation Cell">IIC Innovation Ambassador — Foundation</a></li>
+        <li><a class="cert-link" href="assets/certs/iic-innovation-ambassador-advanced.jpg" data-caption="Innovation Ambassador (Advanced) — MoE’s Innovation Cell">IIC Innovation Ambassador — Advanced</a></li>
+        <li><a class="cert-link" href="assets/certs/iic-innovation-ambassador-reskilling.jpg" data-caption="Innovation Ambassador (Reskilling) — MoE’s Innovation Cell">IIC Innovation Ambassador — Reskilling</a></li>
+        <li><a class="cert-link" href="assets/certs/udemy-python.jpg" data-caption="Python — Udemy">Python — Udemy</a></li>
+        <li><a class="cert-link" href="assets/certs/ccl-aeromodelling-internship.jpg" data-caption="STEM and Aeromodelling Internship — CCL IITGN">STEM & Aeromodelling Internship — CCL IITGN</a></li>
+        <li><a class="cert-link" href="assets/certs/gecb-summer-internship-2025.jpg" data-caption="Summer Internship 2025 — Government Engineering College Bikaner">Summer Internship 2025 — GECB</a></li>
+      </ul>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>About</h2>
+          <p>
+            I’m Bharat Raj Dhaka, an Embedded & VLSI enthusiast and STEM educator. I build fast, reliable systems where hardware meets software.
+          </p>
+          <p>
+            At Govt. Engineering College Bikaner, I actively work with two labs: the <strong>Innovation Centre & Product Design Lab</strong> and the <strong>VLSI & AI Lab</strong>.
+          </p>
+
+          <p><strong>Innovation Centre & Product Design Lab</strong></p>
+          <ul>
+            <li>Rapid prototyping with CAD, 3D printing/laser cutting, and in‑house <strong>PCB design/fabrication</strong> (KiCad, CNC) for idea‑to‑prototype cycles.</li>
+            <li>End‑to‑end product sprints: design thinking, MCU/sensor integration, firmware, testing, and iteration.</li>
+          </ul>
+
+          <p><strong>VLSI & AI Lab</strong></p>
+          <ul>
+            <li>Digital design in <strong>Verilog/VHDL</strong>, simulation/verification (ModelSim/Quartus/Vivado), basic <strong>FPGA bring‑up</strong>, and testbenches.</li>
+            <li>Intro to ASIC flow (RTL → synthesis → timing checks) and fundamentals of STA; robust design under constraints.</li>
+          </ul>
+        </div>
+        <div class="about-media">
+          <img src="assets/images/portrait.jpg" alt="Portrait of Bharat Raj Dhaka" loading="lazy" />
+        </div>
+      </div>
+    </section>
+  </main>
+
+<section id="contact" class="section contact">
+      <div class="contact-grid">
+        <div class="contact-text">  
+          <h2>Contact</h2>
+<footer class="site-footer" role="contentinfo">
+  <div class="foot-inner">
+    <section class="foot-cta" aria-label="Contact and links">
+
+      <nav class="foot-socials" aria-label="Social links">
+        <a href="https://github.com/BharatRajDhaka" target="_blank" rel="noopener">GitHub</a>
+        <span class="dot" aria-hidden="true">•</span>
+        <a href="https://www.linkedin.com/in/bharat-raj-dhaka-83bb36324" target="_blank" rel="noopener">LinkedIn</a>
+        <span class="dot" aria-hidden="true">•</span>
+        <a href="assets/Bharat-Raj-Dhaka-CV.pdf" target="_blank" rel="noopener">Download CV</a>
+      </nav>
+
+      <div class="foot-contact" aria-label="Direct contact">
+        <a class="pill-link" href="mailto:bharatrajdhaka5@gmail.com">✉️ bharatrajdhaka5@gmail.com</a>
+        <a class="pill-link" href="tel:+919256506877">📞 +91 9256506877</a>
+      </div>
+
+      <nav class="foot-labs" aria-label="Labs on LinkedIn">
+        <a class="lab-link"
+           href="https://www.linkedin.com/company/innovation-centre-product-design-lab-dept-of-ei-ce/"
+           target="_blank" rel="noopener">
+          Innovation Centre & Product Design Lab (EI&CE, GECB)
+        </a>
+        <span class="dot" aria-hidden="true">•</span>
+        <a class="lab-link"
+           href="https://www.linkedin.com/company/vlsi-ai-design-lab/"
+           target="_blank" rel="noopener">
+          VLSI & AI Design Lab
+        </a>
+      </nav>
+
+      <p class="foot-note">© <span id="year"></span> Bharat Raj Dhaka</p>
+    </section>
+  </div>
+</footer>
+
+  <!-- Lightbox modal for certifications -->
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="lightboxCaption">
+    <button class="lightbox-close" aria-label="Close">×</button>
+    <figure class="lightbox-figure">
+      <img id="lightboxImg" alt="" />
+      <figcaption id="lightboxCaption" class="lightbox-caption"></figcaption>
+    </figure>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
